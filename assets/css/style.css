@@ -428,10 +428,9 @@ h6 {
 --------------------------------------------------------------*/
 #hero{
   background-color: #26398c;
-  background-image: url("../img/mag1.png");
+  background-image: url("../img/site/mag1.png");
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center center;
   background-size: 100%;
   height:700px;
 }
@@ -572,7 +571,8 @@ section {
 .about .content h3 {
   font-weight: 600;
   font-size: 26px;
-  padding-top: 10px;
+  padding-top: 5px;
+  padding-left: 100px;
 }
 
 .about .content ul {
@@ -596,10 +596,17 @@ section {
 
 .about .content p{
   font-size: 20px;
-  padding: 5px;
-  text-align: right;
+  padding-top: 5px;
+  padding-left: 100px;
+  text-align: left;
   position: relative;
 }
+
+.about .content {
+  float: right;
+  padding-left: 100px ;
+}
+
 .container-about{
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
@@ -611,20 +618,12 @@ section {
   max-width: 1140px;
 }
 
-.about .mag-about{
-  right: 0%;
-  top: 0%;
-  width: 50%;
-  position: contain;
-  max-width: 1140px;
-}
 
 .about{
   background-color: #26398c;
-  background-image: url("../img/mag2.png");
+  background-image: url("../img/site/mag2.png");
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center center;
   background-size: 100%;
   height:700px;
 }
@@ -836,12 +835,10 @@ section {
 --------------------------------------------------------------*/
 .portfolio{
   background-color: #26398c;
-  background-image: url("../img/mag-portfolio-bg.png");
+  background-image: url("../img/site/mag-portbg.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-size: 100%;
-  margin:0px;
-  padding: 0px;
   }
 
 .portfolio img{
@@ -1201,7 +1198,7 @@ section {
   width: 100%;
   margin: 0 auto;
   background-color: #26398c;
-  background-image: url("../img/mag-portfolio-bg.png");
+  background-image: url("../img/site/mag-sup.png");
   background-size: contain;
   background-repeat: no-repeat;
   margin:0px;
@@ -1544,7 +1541,7 @@ section {
 
 .footer-mag{
   background-color: #26398c;
-  background-image: url("../img/mag6.png");
+  background-image: url("../img/site/mag-footer.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-size: 100%;
